@@ -24,5 +24,29 @@ Thanks to https://datahack.analyticsvidhya.com for the challenge and Intel for t
 
 Photo by Temi Iwalaiye on Pulse Nigeria.
 
-Inspiration
+### Goal:
 To build a Neural Network that can classify these images accurately.
+
+## Directions
+1. Clone this repo.
+
+2. Open your docker desktop. Build docker:
+
+       docker build -t scenes_model .
+       
+3. Log into AWS
+
+   ```aws configure```
+   
+4. Create repository
+
+   ```aws ecr create-repository --repository-name scene_model_tflite.images```
+   
+5. Tag the image
+
+   ```docker tag scenes_model:latest <URI>```
+   
+6. Push the image to AWS
+   
+   ```docker push <URI>```
+
