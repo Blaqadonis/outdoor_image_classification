@@ -1,6 +1,6 @@
 # Outdoor Image Classification
 
-![oju](https://user-images.githubusercontent.com/100685852/210071262-84858490-19c9-4c50-a8a5-d4d26977c1c6.jpg)
+![image](https://user-images.githubusercontent.com/100685852/210071325-4b1cdaed-b75c-48cf-88ad-30f4d6238369.png)
 
 
 ## About Dataset
